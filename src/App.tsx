@@ -23,11 +23,12 @@ function App() {
               preco={foodData.preco} 
               titulo={foodData.titulo} 
               image={foodData.image}
+              id={foodData.id}
             />
           )}
         </div>
         {isModalOpen && <Modal/>}
-        <button onClick={handleOpenModal} >Novo</button>
+        <button onClick={handleOpenModal} className='button'>Novo</button>
     </div>
   )
 
