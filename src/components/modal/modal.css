@@ -1,0 +1,65 @@
+/* modal.css */
+
+.modal-style {
+    position: fixed; /* Fixar o modal na tela */
+    top: 50%; /* Centralizar verticalmente */
+    left: 50%; /* Centralizar horizontalmente */
+    transform: translate(-50%, -50%); /* Ajustar o centro exato */
+    width: 400px; /* Largura fixa do modal */
+    padding: 20px; /* Espaçamento interno */
+    background-color: white; /* Cor de fundo do modal */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    z-index: 1000; /* Garantir que o modal esteja sobre outros elementos */
+    height: 330px;
+    border: 2px solid #4e4e4e;
+  }
+  
+  /* Estilo do título */
+  .modal-style h2 {
+    margin-top: 0; /* Remover margem superior */
+    font-size: 1.5em; /* Tamanho da fonte do título */
+    color: black;
+  }
+  
+  /* Estilo do formulário */
+  .form-style {
+    display: flex;
+    flex-direction: column; /* Disposição vertical dos elementos do formulário */
+  }
+  
+  /* Estilo dos labels e inputs */
+  .form-style label {
+    margin-top: 10px; /* Espaçamento acima dos labels */
+    font-weight: bold; /* Negrito para labels */
+    color: black;
+  }
+  
+  .form-style input {
+    margin-top: 5px; /* Espaçamento acima dos inputs */
+    padding: 10px; /* Espaçamento interno dos inputs */
+    border: 1px solid #000000; /* Borda leve para os inputs */
+    border-radius: 4px; /* Bordas arredondadas para os inputs */
+    width: 100%; /* Ajustar largura dos inputs para preencher o formulário */
+    box-sizing: border-box; /* Incluir padding e border na largura total do input */
+    background-color: #fff;
+    color: #000000;
+  }
+  
+  /* Estilo do botão */
+  .btn-secondary {
+    margin-top: 20px; /* Espaçamento acima do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remover bordas do botão */
+    border-radius: 4px; /* Bordas arredondadas para o botão */
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    font-size: 1em; /* Tamanho da fonte do botão */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+    align-self: flex-start; /* Alinhar o botão à esquerda, se necessário */
+  }
+  
+  .btn-secondary:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+  }
+  
