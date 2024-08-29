@@ -7,7 +7,7 @@
 Projeto criado com intuito de consumir uma API criada por mim a fim de desenvolver minhas habilidades com essas tecnologias, e me familiarizar com o consumo de API's.
 
 <p align="center">
-    <img src="" alt="Imagem do Projeto" width="400px">
+    <img src="./src/assets/img.png" alt="Imagem do Projeto" width="600px">
 </p>
 
 # Tópicos
