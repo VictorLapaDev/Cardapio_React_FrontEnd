@@ -1,50 +1,55 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite - Cardapio
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto criado com intuito de consumir uma API criada por mim a fim de desenvolver minhas habilidades com essas tecnologias, e me familiarizar com o consumo de API's.
 
-Currently, two official plugins are available:
+<p align="center">
+    <img src="" alt="Imagem do Projeto" width="400px">
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tópicos
 
-## Expanding the ESLint configuration
+- [Dependências](#dependências)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Contribuição](#contribuição)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Dependências
+1. NodeJs instalado
 
-- Configure the top-level `parserOptions` property like this:
+## Instalação
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. Clonar repositório:
+
+```bash
+git clone https://github.com/VictorLapaDev/Cardapio_React_FrontEnd.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+2. Entrar no projeto?
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+cd Cardapio_React_FrontEnd
 ```
+
+3. Instalar dependências:
+
+```bash
+npm install
+```
+
+## Uso
+1. Inicie o [BackEnd do projeto](https://github.com/VictorLapaDev/Cardapio_Java_Spring).
+  
+2. Inicie o FrontEnd do projeto com o comando:
+
+```bash
+npm run dev
+```
+
+## Contribuição
+Projeto realizado com o intuito de praticar habilidades com o consumo de API, e aplicar a framework React. Este projeto foi feito com base em um video do canal [Fernanda Kipper](https://www.youtube.com/@kipperdev).
+
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, abra uma issue ou envie uma pull request ao repositório.
