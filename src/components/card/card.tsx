@@ -28,6 +28,8 @@ export function Card({preco, titulo, image, id}: CardProps){
          })  
     }
 
+
+
     return(
         <div className="card">
             <img src={image}/>

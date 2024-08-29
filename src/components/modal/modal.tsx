@@ -33,7 +33,7 @@ export function Modal(){
         .then((json) => {
             console.log("Adicionado com sucesso")
             console.log(json.status);
-
+            
         })
         .catch((err) =>{
             console.log("Algo deu errado!")
